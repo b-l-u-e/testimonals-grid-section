@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 81%);
+}
+
+main {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "section-1 section-1 section-2 section-5"
+    "section-3 section-4 section-4 section-5";
+  gap: 2em;
+  max-width: 90rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+.border-section {
+  padding: 1.4rem;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.border-section .profile {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.border-section .profile img {
+  border-radius: 50%;
+}
+
+.border-section .profile span .name {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.border-section .profile span .status {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.section-1 {
+  background-color: hsl(263, 55%, 52%);
+  grid-area: section-1;
+}
+
+.section-1 .profile span .name {
+  color: rgb(236, 242, 248);
+  font-size: 1rem;
+}
+
+.section-1 .profile span .status {
+  color: rgba(236, 242, 248, 0.5);
+  font-size: 0.8rem;
+}
+
+.section-1 h2 {
+  color: rgb(236, 242, 248);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.section-1 p {
+  color: rgba(236, 242, 248, 0.5);
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.section-2 {
+  background-color: hsl(217, 19%, 35%);
+  grid-area: section-2;
+}
+
+.section-2 .profile span .name {
+  color: rgb(207, 207, 207);
+  font-size: 1rem;
+}
+
+.section-2 .profile span .status {
+  color: rgba(207, 207, 207, 0.5);
+  font-size: 0.8rem;
+}
+
+.section-2 h2 {
+  color: rgb(207, 207, 207);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.section-2 p {
+  color: rgba(207, 207, 207, 0.5);
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.section-3 {
+  background-color: hsl(0, 0%, 100%);
+  grid-area: section-3;
+}
+
+.section-3 .profile span .name {
+  color: rgb(72, 85, 106);
+  font-size: 1rem;
+}
+
+.section-3 .profile span .status {
+  color: rgba(72, 85, 106, 0.7);
+  font-size: 0.8rem;
+}
+
+.section-3 h2 {
+  color: rgb(72, 85, 106);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.section-3 p {
+  color: rgba(72, 85, 106, 0.7);
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.section-4 {
+  background-color: hsl(219, 29%, 14%);
+  grid-area: section-4;
+}
+
+.section-4 .profile span .name {
+  color: rgb(236, 242, 248);
+  font-size: 1rem;
+}
+
+.section-4 .profile span .status {
+  color: rgba(236, 242, 248, 0.7);
+  font-size: 0.8rem;
+}
+
+.section-4 h2 {
+  color: rgb(236, 242, 248);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.section-4 p {
+  color: rgba(236, 242, 248, 0.7);
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.section-5 {
+  background-color: hsl(0, 0%, 100%);
+  grid-area: section-5;
+}
+
+.section-5 .profile span .name {
+  color: rgb(72, 85, 106);
+  font-size: 1rem;
+}
+
+.section-5 .profile span .status {
+  color: rgba(72, 85, 106, 0.7);
+  font-size: 0.8rem;
+}
+
+.section-5 h2 {
+  color: rgb(72, 85, 106);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.section-5 p {
+  color: rgba(72, 85, 106, 0.7);
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 80%;
+  }
+  main {
+    width: 100%;
+    grid-template-columns: repeat(1, 25rem);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "section-1"
+      "section-2"
+      "section-3"
+      "section-4"
+      "section-5";
+    justify-content: center;
+  }
+}
+
+@media (max-width: 340px) {
+  html {
+    font-size: 60%;
+  }
+}
