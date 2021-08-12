@@ -43,13 +43,15 @@ main {
 
 .border-section .profile img {
   border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
-.border-section .profile div .name {
-  padding: 1rem 1rem 0 1rem;
+.border-section .profile .name {
+  padding: 0 1rem 0 1rem;
 }
 
-.border-section .profile div .status {
+.border-section .profile .status {
   padding: 0 1rem 1rem 1rem;
 }
 
