@@ -45,11 +45,11 @@ main {
   border-radius: 50%;
 }
 
-.border-section .profile span .name {
+.border-section .profile  .name {
   padding: 1rem 1rem 0 1rem;
 }
 
-.border-section .profile span .status {
+.border-section .profile .status {
   padding: 0 1rem 1rem 1rem;
 }
 
@@ -60,12 +60,12 @@ main {
   grid-area: section-1;
 }
 
-.section-1 .profile span .name {
+.section-1 .profile .name {
   color: rgb(236, 242, 248);
   font-size: 1rem;
 }
 
-.section-1 .profile span .status {
+.section-1 .profile .status {
   color: rgba(236, 242, 248, 0.5);
   font-size: 0.8rem;
 }
@@ -89,12 +89,12 @@ main {
   grid-area: section-2;
 }
 
-.section-2 .profile span .name {
+.section-2 .profile .name {
   color: rgb(207, 207, 207);
   font-size: 1rem;
 }
 
-.section-2 .profile span .status {
+.section-2 .profile .status {
   color: rgba(207, 207, 207, 0.5);
   font-size: 0.8rem;
 }
@@ -118,12 +118,12 @@ main {
   grid-area: section-3;
 }
 
-.section-3 .profile span .name {
+.section-3 .profile .name {
   color: rgb(72, 85, 106);
   font-size: 1rem;
 }
 
-.section-3 .profile span .status {
+.section-3 .profile .status {
   color: rgba(72, 85, 106, 0.7);
   font-size: 0.8rem;
 }
@@ -147,12 +147,12 @@ main {
   grid-area: section-4;
 }
 
-.section-4 .profile span .name {
+.section-4 .profile .name {
   color: rgb(236, 242, 248);
   font-size: 1rem;
 }
 
-.section-4 .profile span .status {
+.section-4 .profile .status {
   color: rgba(236, 242, 248, 0.7);
   font-size: 0.8rem;
 }
@@ -176,12 +176,12 @@ main {
   grid-area: section-5;
 }
 
-.section-5 .profile span .name {
+.section-5 .profile .name {
   color: rgb(72, 85, 106);
   font-size: 1rem;
 }
 
-.section-5 .profile span .status {
+.section-5 .profile .status {
   color: rgba(72, 85, 106, 0.7);
   font-size: 0.8rem;
 }
