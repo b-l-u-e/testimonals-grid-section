@@ -53,6 +53,8 @@ main {
 }
 
 .section-1 {
+  background: no-repeat url(./images/bg-pattern-quotation.svg);
+  background-position: 85% 0;
   background-color: hsl(263, 55%, 52%);
   grid-area: section-1;
 }
