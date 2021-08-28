@@ -26,7 +26,7 @@ Users will be able to:
 
 ### Links
 
-- Live Site URL: [testimonials-grid-section]()
+- Live Site URL: [testimonials-grid-section](https://happy-swanson-c0cf48.netlify.app)
 
 ## my-process
 
